@@ -215,9 +215,9 @@ This will open the published report in the browser.
 
 ![Select published report](06/media/image-6-21.png)
 
-3. Select **Pin a live page** on the menu. Depending on the layout you may need to press **...** to show additional menu items.
+3. Select **Pin to a dashboard** on the menu. Depending on the layout you may need to press **...** to show additional menu items.
 
-![Pin a live page](06/media/image-6-22.png)
+![Pin a live page](06/media/PL100-09.png)
 
 4. Select **New dashboard** on **Pin to dashboard** prompt.
 5. Enter **Problem Management** as a **Dashboard name**, press **Pin live**.

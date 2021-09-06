@@ -74,11 +74,11 @@ In this task, you will create a flow that send notification when the status of p
 
 ![Select trigger - screenshot](05/media/image2.png)
 
-6.  Select **Update** for **Change type**; **Problem Reports** for **Table name**; **Organization** for **Scope**, and click **Show advanced options**.
+6.  Select **Added or Modified or Deketed** for **Change type**; **Problem Reports** for **Table name**; **Organization** for **Scope**, and click **Show advanced options**.
 
-7.  Enter **statuscode** for **Column filter** and **… Menu** button of the trigger step.
+7.  Enter **statuscode** for **Select columns** and **… Menu** button of the trigger step.
 
-![Provide filter and click menu - screenshot](05/media/image3.png)
+![Provide filter and click menu - screenshot](05/media/PL100-07.png)
 
 8.  Select **Rename**.
 
@@ -86,7 +86,7 @@ In this task, you will create a flow that send notification when the status of p
 
 10.  Click **+ New step**.
 
-![Add new flow step - screenshot](05/media/image4.png)
+![Add new flow step - screenshot](05/media/PL100-07.2.png)
 
 11. Select Microsoft Dataverse. Click on **Actions**, then select **Get a Row by ID**.
 
@@ -144,7 +144,7 @@ In this task, you will create a flow that send notification when the status of p
 
 33. Close the flow designer browser window or tab.
 
-34. Clock **Done** on the popup window.
+34. Click **Done** on the popup window.
 
 #### Task 2: Test the flow
 
@@ -152,7 +152,7 @@ In this task, you will test the notify problem creator flow.
 
 1.  Make sure you are still on the [Power Apps maker portal](https://make.powerapps.com/) site and you are in the correct environment.
 
-2.  Select **Apps**, and then select the **Company 311 Admin** Model-driven application. Clcik **Play**.
+2.  Select **Apps**, and then select the **Company 311 Admin** Model-driven application. Click **Play**.
 
 3.  Click **+ New**.
 
@@ -232,7 +232,7 @@ In this task, you will create the escalation flow.
 
 4.  Search for **when a row is added** and select **When a row is added, modified, or deleted Microsoft Dataverse**.
 
-5.  Select **Create or Update** for **Change type**; select **Problem Reports** for **Table name**; select **Organization** for **Scope**, and click **Show advanced options**.
+5.  Select **Added or Modified** for **Change type**; select **Problem Reports** for **Table name**; select **Organization** for **Scope**, and click **Show advanced options**.
 
 6.  Enter **lh\_estimatedcost** for Column filter and click **Hide advanced options**.
 
@@ -260,7 +260,7 @@ In this task, you will create the escalation flow.
 
 17. Select **Users** for **Table name**.
 
-18. Click to select the **Item ID** Column and select **Assign to (Value)** form the **Dynamic content** pane.
+18. Click to select the **Row ID** Column and select **Assign to (Value)** form the **Dynamic content** pane.
 
 19. Click **Show advanced options**.
 
@@ -439,13 +439,17 @@ In this task you will replace the approval sent by email with the adaptive card.
 
 14. Select **+** then select **Add an action**.
 
-15. Search for **teams** and select **Post your own adaptive card as the Flow bot to a user** action.
+15. Search for **teams** and select **Post adaptive card in chat or channel** action.
+
+16. Select **Flow bot** for **post as** and **Chat with Flow bot** for **Post in**.
+
+![Create an approval action](05/media/PL100-08.png)
 
 16. Click to select the **Recipient** Column.
 
 17. Go to the **Dynamic content** pane and select **Primary Email** from the **Get user** step.
 
-18. Click to select **Message** Column.
+18. Click to select **Adaptive card** Column.
 
 19. Go to the **Dynamic content** pane and select **Teams Adaptive Card** from the **Create an approval** step.
 
