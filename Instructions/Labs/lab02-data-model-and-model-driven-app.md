@@ -62,13 +62,13 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 3.  Enter **Company 311** for **Display name**.
 
-4.  Click on the **Publisher** dropdown and select **+ Publisher**.
+4.  Click on **+ Publisher**.
 
-![Create new publisher - screenshot](02/media/image1.png)
+![Create new publisher - screenshot](02/media/PL100-01.png)
 
-5.  Enter **Lamna Healthcare** for **Display name**, **lh** for **Prefix**, and click **Save and Close**.
+5.  Enter **Lamna Healthcare** for **Display name**, **lh** for **Prefix**, and click **Save**.
 
-![Save publisher - screenshot](02/media/image2.png)
+![Save publisher - screenshot](02/media/PL100-02.png)
 
 6.  Click **Done** on the popup.
 
@@ -445,101 +445,105 @@ In this exercise, you will create model-driven application.
 
 ![New model-driven app - screenshot](02/media/image60.png)
 
-4.  Enter **Company 311 Admin** for name and click **Done**.
+4.  Select **classic app designer** and click **save**.
+
+![New model-driven app - screenshot](02/media/PL100-03.png)
+
+5.   Enter **Company 311 Admin** for name and click **Done**.
 
 ![Create model-driven application - screenshot](02/media/image61.png)
 
-5.  Click Edit **Site Map.**
+6.  Click Edit **Site Map.**
 
 ![Edit sitemap - screenshot](02/media/image62.png)
 
-6.  Select the **New Area**.
+7.  Select the **New Area**.
 
 ![Select sitemap area - screenshot](02/media/image63.png)
 
-7.  Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
+8.  Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
 
 ![Sitemap area properties - screenshot](02/media/image64.png)
 
-8.  Select the **New Group**.
+9.  Select the **New Group**.
 
 ![Select sitemap group - screenshot](02/media/image65.png)
 
-9.  Go to the **Properties**, enter **Problems** for **Title**, and enter **group\_problems** for **ID**.
+10.  Go to the **Properties**, enter **Problems** for **Title**, and enter **group\_problems** for **ID**.
 
 ![Sitemap group properties - screenshot](02/media/image66.png)
 
-10. Select the **New Subarea**.
+11. Select the **New Subarea**.
 
 ![Sitemap subarea - screenshot](02/media/image67.png)
 
-11. Go to the **Properties** pane, select **Table** for **Type**, and select **Problem Report** for **Table**.
+12. Go to the **Properties** pane, select **Table** for **Type**, and select **Problem Report** for **Entity**.
 
 ![Sitemap subarea properties - screenshot](02/media/image68.png)
 
-12. Click **+ Add**.
+13. Click **+ Add**.
 
 ![Add sitemap component - screenshot](02/media/image69.png)
 
-13. Select **Area**.
+14. Select **Area**.
 
-14. Select the **New Area** you just added.
+15. Select the **New Area** you just added.
 
 ![Sitemap area - screenshot](02/media/image70.png)
 
-15. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
+16. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
 
-16. Select the **Settings** area and click **+ Add**.
+17. Select the **Settings** area and click **+ Add**.
 
 ![Add sitemap component - screenshot](02/media/image71.png)
 
-17. Select **Group**.
+18. Select **Group**.
 
-18. Select the **New Group** you just added.
+19. Select the **New Group** you just added.
 
-19. Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
+20. Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
 
 ![Sitemap group properties - screenshot](02/media/image72.png)
 
-20. Select the **Taxonomy** group you just added and select the **Components** pane.
+21. Select the **Taxonomy** group you just added and select the **Components** pane.
 
 ![Sitemap components - screenshot](02/media/image73.png)
 
-21. Drag **Subarea** and drop it under the **Taxonomy** group.
+22. Drag **Subarea** and drop it under the **Taxonomy** group.
 
 ![Add subarea to group - screenshot](02/media/image74.png)
 
-22. Select the **New Subarea**.
+23. Select the **New Subarea**.
 
-23. Go to the **Properties** pane, select **Entity** for **Type**, and select **Building** for **Table**.
+24. Go to the **Properties** pane, select **Entity** for **Type**, and select **Building** for **Entity**.
 
 ![Sitemap subarea properties - screenshot](02/media/image75.png)
 
-24. Add another **Subarea** component to the **Taxonomy** group.
+25. Add another **Subarea** component to the **Taxonomy** group.
 
-25. Select the **New Subarea**.
+26. Select the **New Subarea**.
 
-26. Go to the **Properties** pane, select **Table** for **Type**, and select **Department** for **Table**.
+27. Go to the **Properties** pane, select **Table** for **Type**, and select **Department** for **Entity**.
 
-27. The sitemap should now look like the image below. Click **Save** to save the sitemap.
+28. The sitemap should now look like the image below. Click **Save** to save the sitemap.
 
 ![Save sitemap - screenshot](02/media/image76.png)
 
-28. Click **Publish** to publish the sitemap and wait for the publishing to complete.
+29. Click **Publish** to publish the sitemap and wait for the publishing to complete.
 
-29. Go back to the **App Designer**.
+30. Go back to the **App Designer**.
 
 ![Back to app designer button - screenshot](02/media/image77.png)
 
-30. The application should now have three Tables. Click **Save** to save the application.
+31. The application should now have three Tables. Click **Save** to save the application.
 
 ![Save application - screenshot](02/media/image78.png)
 
-31. Click **Publish** to publish the application and wait for the publishing to complete.
+32. Click **Publish** to publish the application and wait for the publishing to complete.
 
-32. Close the app designer browser tab or window.
+33. Close the app designer browser tab or window.
 
-33. Click **Done**.
+34. Click **Done**.
 
 ![Done creating application - screenshot](02/media/image79.png)
 
