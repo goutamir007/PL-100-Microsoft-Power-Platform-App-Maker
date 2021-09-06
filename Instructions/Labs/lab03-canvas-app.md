@@ -130,57 +130,53 @@ In this task, you will create a canvas application using the phone form factor.
 
 ![Create canvas application - screenshot](03/media/image7.png)
 
-4.  Click **Skip** on the welcome screen.
+4.  Enter **Company 311 Phone App** for name and select **Tablet** for format and click **create**.
 
-5.  Select your **Region/Country** and click **Get started**.
+[Create canvas application - screenshot](03/media/PL100-05.png)
 
-6.  Click **File** and select **Save**.
-
-7.  Enter **Company 311 Phone App** for name and click **Save**.
-
-8.  Click on the back button.
+5.  Click on the back button.
 
 ![Back to app designer - screenshot](03/media/image8.png)
 
-9.  Go to the Tree view and double click **Screen1**.
+6.  Go to the Tree view and double click **Screen1**.
 
 ![Edit screen name - screenshot](03/media/image9.png)
 
-10. Rename the screen **Main Screen**. It’s always a good idea to give your screens a meaningful name.
+7. Rename the screen **Main Screen**. It’s always a good idea to give your screens a meaningful name.
 
 ![Rename screens - screenshot](03/media/image10.png)
 
-11. Select the **Main Screen** and click **Insert**.
+8. Select the **Main Screen** and click **Insert**.
 
 ![Insert component - screenshot](03/media/image11.png)
 
-12. Select **Get more Components**.
+9. Select **Get more Components**.
 
 ![Get more components - screenshot](03/media/image12-1.png)
 
-13. Expand the **Lamna Healthcare Shared Components A** Library, and select **Header** and **Tab Control**.
+10. Expand the **Lamna Healthcare Shared Components A** Library, and select **Header** and **Tab Control**.
 
 ![Import header and tab controls from the library - screenshot](03/media/image12-2.png)
 
-14. Click **Import**.
+11. Click **Import**.
 
-15. Expand **Library components**, select **Header Control** and **Tab Control**. These are both components from the library you imported earlier in the lab.
+12. Expand **Library components**, select **Header Control** and **Tab Control**. These are both components from the library you imported earlier in the lab.
 
 ![Select and insert controls into the app - screenshot](03/media/image12-3.png)
 
-16. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screens.
+13. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screens.
 
-17. Select the **Header Control** and change the **Text** value to **"Company 311".**
+14. Select the **Header Control** and change the **Text** value to **"Company 311".**
 
 ![Change text value - screenshot](03/media/image13.png)
 
-18. Right click on the Main Screen and select Duplicate screen.
+15. Right click on the Main Screen and select Duplicate screen.
 
 ![Duplicate screens - screenshot](03/media/image14.png)
 
-19. Rename the new screen **New Reports Screen**.
+16. Rename the new screen **New Reports Screen**.
 
-20. Select the **Tree view**, select **App** and change the **OnStart** value to the formula below. This formula will create a new variable named My Tabs and set it to a table of tab items.
+17. Select the **Tree view**, select **App** and change the **OnStart** value to the formula below. This formula will create a new variable named My Tabs and set it to a table of tab items.
 
 ```javascript
 Set('My Tabs', Table( {
@@ -203,25 +199,25 @@ Set('My Tabs', Table( {
 
 ![tab data variable - screenshot](03/media/image15.png)
 
-21. Select the **Tab Control** in the **Main Screen** and change the **Items** value to **‘My Tabs’**.
+18. Select the **Tab Control** in the **Main Screen** and change the **Items** value to **‘My Tabs’**.
 
 ![Set tab items - screenshot](03/media/image16.png)
 
-22. Change the **SelectedColor** value to **WhiteSmoke**.
+19. Change the **SelectedColor** value to **WhiteSmoke**.
 
-23. Select the **Tab Control** inside the **New Report Screen** and set the Item value to **‘My Tabs’**.
+20. Select the **Tab Control** inside the **New Report Screen** and set the Item value to **‘My Tabs’**.
 
-24. Change the **SelectedColor** value to **WhiteSmoke**.
+21. Change the **SelectedColor** value to **WhiteSmoke**.
 
-25. Click on the **…** button of the **App** and select **Run OnStart**.
+22. Click on the **…** button of the **App** and select **Run OnStart**.
 
 ![Run app on start - screenshot](03/media/image17.png)
 
-26. Your tabs should now show the two tabs you added.
+23. Your tabs should now show the two tabs you added.
 
 ![Tab with data - screenshot](03/media/image18.png)
 
-27. Do not navigate away from this page.
+24. Do not navigate away from this page.
 
 ### Exercise 2: My reports
 
