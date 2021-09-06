@@ -232,7 +232,7 @@ In this task, you will create the escalation flow.
 
 4.  Search for **when a row is added** and select **When a row is added, modified, or deleted Microsoft Dataverse**.
 
-5.  Select **Create or Update** for **Change type**; select **Problem Reports** for **Table name**; select **Organization** for **Scope**, and click **Show advanced options**.
+5.  Select **Added or Modified** for **Change type**; select **Problem Reports** for **Table name**; select **Organization** for **Scope**, and click **Show advanced options**.
 
 6.  Enter **lh\_estimatedcost** for Column filter and click **Hide advanced options**.
 
