@@ -92,7 +92,7 @@ In this exercise, you will run the solution checker on the Company 311 solution.
 
 1.  Make sure you are still on the [Power Apps maker portal](https://make.powerapps.com/) site and you are in the correct environment.
 
-2.  Select **Solutions**, click **Solution checker**, and select **Run**.
+2.  Select **Comapny 311** inside Solutions, click **Solution checker**, and select **Run**.
 
 ![Run solution checker - screenshot](07/media/image4.png)
 
@@ -118,7 +118,7 @@ In this exercise, you create use test studio to create test case for submitting 
 
 3.  Click **File** and select **Settings**.
 
-4.  Select **Advanced settings**.
+4.  Select **Upcoming features** inside settings.
 
 5.  Scroll down and enable **Formula level error management**.
 
