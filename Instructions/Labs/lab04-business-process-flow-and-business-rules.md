@@ -92,7 +92,7 @@ In this task, you will create a business process flow for the problem report Tab
 
 ![Expand stage details - screenshot](04/media//image5.png)
 
-7.  Select **Data Step \#1**, go to the **Properties** pane, select **Building** for **Data Column**, and click **Apply**.
+7.  Select **Data Step \#1**, go to the **Properties** pane, select **Building** for **Data Field**, and click **Apply**.
 
 ![Step properties - screenshot](04/media//image6.png)
 
@@ -102,11 +102,11 @@ In this task, you will create a business process flow for the problem report Tab
 
 9.  Add the data step below the **Building** data step.
 
-10. Select the new data step, go to the **Properties** pane, select **Location** for **Data Column**, and click **Apply**.
+10. Select the new data step, go to the **Properties** pane, select **Location** for **Data Field**, and click **Apply**.
 
 11. Click **+ Add** again and select **Add Data Step**.
 
-12. Select the new data step, go to the **Properties** pane, select **Department** for **Data Column**, and click **Apply**.
+12. Select the new data step, go to the **Properties** pane, select **Department** for **Data Field**, and click **Apply**.
 
 13. The **Route** stage should now look like the image below.
 
@@ -122,7 +122,7 @@ In this task, you will create a business process flow for the problem report Tab
 
 18. Select **Data Step \#1** of the **Fix** stage.
 
-19. Go to the **Properties** pane, select **Assign to** for **Data Column**, and click **Apply**.
+19. Go to the **Properties** pane, select **Assign to** for **Data Field**, and click **Apply**.
 
 20. Click **+ Add** and select **Add Stage**.
 
@@ -134,13 +134,13 @@ In this task, you will create a business process flow for the problem report Tab
 
 24. Select **Data Step \#1** of the **Resolve** stage.
 
-25. Go to the **Properties** pane, select **Resolution** for **Data Column**, and click **Apply**.
+25. Go to the **Properties** pane, select **Resolution** for **Data Field**, and click **Apply**.
 
 26. Click **+ Add** and select **Add Data Step**.
 
 27. Add the new data step below the **Resolution** data step.
 
-28. Select the new data step, go to the **Properties** pane, select **Resolved on** for **Date Column**, and click **Apply**.
+28. Select the new data step, go to the **Properties** pane, select **Resolved on** for **Date Field**, and click **Apply**.
 
 29. The Business process flow should now look like the image below. Click **Save**.
 
