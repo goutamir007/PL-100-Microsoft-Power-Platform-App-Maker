@@ -132,7 +132,7 @@ In this task, you will create a canvas application using the phone form factor.
 
 4.  Enter **Company 311 Phone App** for name and select **Tablet** for format and click **create**.
 
-[Create canvas application - screenshot](03/media/PL100-05.png)
+![Create canvas application - screenshot](03/media/PL100-05.png)
 
 5.  Click on the back button.
 
