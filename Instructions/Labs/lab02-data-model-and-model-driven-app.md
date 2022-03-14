@@ -447,37 +447,36 @@ In this exercise, you will create model-driven application.
 
 3.  Click **+ New | App | Model-driven app**.
 
-![New model-driven app - screenshot](02/media/image60.png)
+![A screenshot of a border around the Model-driven app button](02/media/image99.png)
 
 4.  Select **Modern app designer** and click **Create**.
 
-5.  Enter **Company 311 Admin** for name and click **Create**
+5.  Enter **Company 311 Admin** for name and click **Create**.
 
-![Create model-driven application - screenshot](02/media/image61.png)
+![A screenshot of the New model-driven app window](02/media/image99.png)
 
 6. Select **Navigation** from left menu.
 
-![Edit sitemap - screenshot](02/media/image62.png)
+   ![A screenshot of the Pages selection pane with a red arrow pointing to the tree icon in the navigation pane](02/media/image100.png)
 
-7.  Select the **New Area**.
+7. Select the **Area1**.
 
-![Select sitemap area - screenshot](02/media/image63.png)
+![A Screenshot with an arrow pointing to area 1 selected](02/media/image101.png)
 
 **Hint:** Make sure **Enable Areas** option has been been checked under the **Navigation bar** to view the **Area1**.
+8. Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
 
-8.  Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
-
-![Sitemap area properties - screenshot](02/media/image64.png)
+![A screenshot of the properties pane with the title and ID changed](02/media/image102.png)
 
 9. Select the **Group1**.
 
-![Select sitemap group - screenshot](02/media/image65.png)
+![A screenshot of group 1 selected](02/media/image103.png)
 
-10.  Go to the **Properties pane**, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
-11. Select the **New Subarea**.
-12. Go to the **Properties** pane, select **Table** for **Type**, and select **Problem Report** for **Entity**.
+10. Go to the **Properties**, enter **Problems** for **Title**, and enter **group\_problems** for **ID**.
+11. Select the **Subarea1**.
+12. Go to the **Properties** pane, select **Table** for **Content Type**, and select **Problem Report** for **Table**, and enter **Problem reports** for **Title**.
 
-![Sitemap subarea properties - screenshot](02/media/image68.png)
+![A screenshot of the properties pane and the content type, table, and title changed](02/media/image104.png)
 
 > [!NOTE]
 > The new app designer doesn't provide a way to add new sitemap area yet.
@@ -485,28 +484,32 @@ In this exercise, you will create model-driven application.
 13. Click **Save**.
 14. Click **Switch to classic**
 
+![A Screenshot with an arrow pointing to the Switch to classic link](02/media/image105.png)
+
 15. Select **Save and Continue**.
 
-![Sitemap area - screenshot](02/media/image70.png)
+> [!NOTE] 
+> If the pop-ups are not enabled on the browser, the classic view will not open. Make sure that you have enabled open popups and redirects on the browser tab. 
+
+![Select Save and continue - screenshot](02/media/image106.png)
 
 16. Click **Edit** on the Site Map.
 
+![A Screenshot with an arrow pointing to the pencil icon to edit the site map](02/media/image107.png)
 
 17.   Click **+ Add** and select **Area**.
 
-![Add sitemap component - screenshot](02/media/image71.png)
+![A Screenshot with an arrow pointing to the add button and a border around the area button](02/media/image108.png)
 
 18.   Select the **New Area** you just added.
 
 19. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
 
-![A screenshot of the properties pane with the title and ID changed](02-1/media/image97.png)
+![A screenshot of the properties pane with the title and ID changed](02/media/image109.png)
 
 20.  Click **Save and close** to close the sitemap editor.
 
 21.  Click **Save and close** again to close the classic app designer.
-
-![Sitemap components - screenshot](02/media/image73.png)
 
 22. You should now be back to the new app designer. **Refresh** the browser. Switch to **Navigation** menu.
 
@@ -514,41 +517,41 @@ In this exercise, you will create model-driven application.
 
 24. Click **+ Add** and select **Group**.
 
-![Sitemap subarea properties - screenshot](02/media/image75.png)
+![A Screenshot with an arrow pointing to the add drop down menu and a border around the group button](02/media/image110.png)
 
 25.  Select the **New Group** you just added.
 
 26.  Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
 
-![A screenshot of the properties pane with the title and ID changed](02/media/image72.png)
 
-27. Go to the **Properties** pane, select **Table** for **Type**, and select **Department** for **Entity**.
 
-28. The sitemap should now look like the image below. Click **Save** to save the sitemap.
+27.  Select the **Taxonomy** group you just added, click **+ Add** and select **Subarea**
 
-![Save sitemap - screenshot](02/media/image76.png)
+![A Screenshot with an arrow pointing to the subarea button](02/media/image112.png)
 
-29. Click **Publish** to publish the sitemap and wait for the publishing to complete.
+28.   Select **Table** for **Content type**, **Building** for **Table** and click **Add**.
 
-30. Go back to the **App Designer**.
+![A screenshot of the New Subarea window and the content type changed](02/media/image112.png)
 
-![Back to app designer button - screenshot](02/media/image77.png)
+29.  Select the **Taxonomy** group, click **+ Add** and select **Subarea** again.
 
-31. The application should now have three Tables. Click **Save** to save the application.
+30.  Select **Table** for **Content type**, select **Department** for **Table**, and click **Add**.
 
-![Save application - screenshot](02/media/image78.png)
+31. The sitemap should now look like the image below. Click **Save** to save the sitemap.
 
-32. Click **Publish** to publish the application and wait for the publishing to complete.
+![A Screenshot with an arrow pointing to the save button on your site map which should have active departments with a name column below](02/media/image113.png)
 
-33. Close the app designer browser tab or window.
+32. Click **Publish** to publish the sitemap and wait for the publishing to complete.
+33. **Close** the browser tab. 
+34. Open a new tab and navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
+35. Select Solutions and click to open the **Company 311** solution.
+36. Click **Publish all customizations** and wait for the publishing to complete.
 
-34. Click **Done**.
-
-![Done creating application - screenshot](02/media/image79.png)
+![A Screenshot with an arrow pointing to the publish all customizations button](02/media/image115.png)
 
 ### Exercise 5: Input data
 
-In this exercise, you will input data.
+In this exercise, you will input data to the Dataverse tables.
 
 #### Task 1: Input data
 
@@ -556,21 +559,21 @@ In this exercise, you will input data.
 
 2.  Select **Apps** and click to open the **Company 311 Admin** application you created.
 
-![Open application - screenshot](02/media/image80.png)
+![A Screenshot with an arrow pointing to the company 311 admin app](02/media/image116.png)
 
 3.  Click **Change area**.
 
-![Change sitemap area - screenshot](02/media/image81.png)
+![A Screenshot with an arrow pointing to chevron icon next to manage problems](02/media/image117.png)
 
 4.  Select **Settings** area.
 
 5.  Select **Departments** and click **+ New**.
 
-![New department Row button - screenshot](02/media/image82.png)
+![A Screenshot with an arrow pointing to the new button at the top of the window](02/media/image118.png)
 
 6.  Enter **Facility Maintenance** for **Name** and click **Save**.
 
-![Save Row - screenshot](02/media/image83.png)
+![A screenshot showing the change in name to facility maintenance](02/media/image119.png)
 
 7.  Click **+ New** again.
 
@@ -584,7 +587,7 @@ In this exercise, you will input data.
 
 12. You should now have three department Rows. Select **Buildings**.
 
-![Select subarea - screenshot](02/media/image84.png)
+![A Screenshot with an arrow pointing to the buildings button under taxonomy](02/media/image120.png)
 
 13. Click **+ New**.
 
@@ -596,61 +599,63 @@ In this exercise, you will input data.
 
 17. You should now have two building Rows. Click **Change area**.
 
-![Change area - screenshot](02/media/image85.png)
+![A Screenshot with an arrow pointing to the chevron icon next to settings in the bottom left corner of the window](02/media/image130.png)
 
 18. Select **Manage Problems**.
 
 19. Click **+ New**.
 
-![New Row button - screenshot](02/media/image86.png)
+![A screenshot of the active problem reports page](02/media/image121.png)
 
-20. Enter **Broken door** for **Title**, select **San Francisco Main Campus** for **Building**, enter **The main entrance door will not open all the way** for **Details**, and click Save
+20. Enter **Broken door** for **Title**, select **San Francisco Main Campus** for **Building**, enter **The main entrance door will not open all the way** for **Details**, and click **Save**
 
-![Row form - screenshot](02/media/image87.png)
+![A screenshot of the new problem report window with all relevant text in each field](02/media/image122.png)
 
 21. Click on the **Photo** Column.
 
-![Click Column - screenshot](02/media/image88.png)
+![A Screenshot with an arrow pointing to the upload an image button](02/media/image123.png)
 
-22. Select an image from your device. The sample imaged displayed below can be found here: F:\\Instructions\\Labs\\02\\media\\image89.png
+22. Select an image from your device. The sample image displayed below can be found [here](02/media/image124.png).
 
 23. The image should now show on the form.
 
-![Image on a form - screenshot](02/media/image89.png)
+![A screenshot of a vector image of a door which should appear](02/media/image124.png)
 
 24. Click **Save & Close**.
 
-35. Close the browser tab.
+25. Close the browser tab.
 
 ### Exercise 6: Import data
 
-In this exercise, you will import sample data into your environment. Rows are imported by a Power Automate flow that you will first import using a solution.
+In this exercise, you will import sample data into the environment. Rows are imported by a Power Automate cloud flow that you will first import using a solution.
 
 #### Task 1: Import solution
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
-
 2.  Select **Solutions** and click **Import**.
-
-3.  Click **Choose** **File**.
-
+3.  Click **Browse**.
 4.  Select the **DataImport.zip** solution file located in the lab resources folder and click **Open**.
-
 5.  Click **Next**.
-
-6.  Click **Import** and wait for the message **Solution "Data Import" imported successfully.** to appear.
-
-7.  Click **Publish all customizations** and wait for the publishing to complete. 
+6.  Click **Next** again.
+7.  Expand **Select a connection** dropdown and click **+ New connection**.
+8.  New tab will open with a prompt to create **Microsoft Dataverse** connection. 
+9.  Click **Create**, authenticate if required, wait until new connection is created. Close the browser tab.
+10.  Click **Refresh**. Make sure new connection is selected in the dropdown. 
+11.  Click **Import** and wait for the message **Solution "Data Import" imported successfully** to appear.
+12.  Click **Publish all customizations** and wait for the publishing to complete. 
 
 #### Task 2: Review and run flow
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
+1. Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select **Solutions** and click to open the **Data Import** solution you imported.
+2. Select **Solutions** and click to open the **Data Import** solution you imported.
 
-3.  Click to open the **Import Data** flow. Click the **Get Started** button on the **Welcome to Power Automare** window.
+3.  Click to open the **Import Data** flow. Click the **Get Started** button on the **Welcome to Power Automate** window.
 
-![Open flow - screenshot](02/media/image90.png)
+> [!NOTE]
+> If the flow is not opened after clicking on Get Started, then close the current tab, go back to your previous window, click Done and reopen the flow.
+
+![A Screenshot with an arrow pointing to the import data button](02/media/image125.png)
 
 4.  Click **Edit**.
 
@@ -658,7 +663,7 @@ In this exercise, you will import sample data into your environment. Rows are im
 
 6.  Click to expand the **Input** **Data** step.
 
-7.  Review the Json text in the value Column. This is the data that will be imported into your environment
+7.  Review the JSON text in the value Column. This is the data that will be imported into your environment. Note the image data encoded as a text.
 
 8.  Expand the **Each Department** for each control
 
@@ -670,7 +675,7 @@ In this exercise, you will import sample data into your environment. Rows are im
 
 12. Click on the button and go back to the flow details page.
 
-![Back to floe details - screenshot](02/media/image92.png)
+![A Screenshot with an arrow pointing to the arrow icon to go back](02/media/image126.png)
 
 13. Click **Run**.
 
@@ -680,7 +685,7 @@ In this exercise, you will import sample data into your environment. Rows are im
 
 16. Wait for the flow run to complete. Click on the **Refresh** button to check if the flow run completed successfully.
 
-![Completed flow run - screenshot](02/media/image93.png)
+![A Screenshot with an arrow pointing to the refresh button in the top right corner and a border around the status showing it has succeeded](02/media/image127.png)
 
 17. Close the flow editor browser window or tab.
 
@@ -692,15 +697,15 @@ In this exercise, you will import sample data into your environment. Rows are im
 
 2.  Select **Apps** and click to open the **Company 311 Admin** application.
 
-3.  Select Problem Reports and change the view to My Reports. You should see at least three new Rows.
+3.  Select Problem Reports. You should see at least three new Rows.
 
-![Imported problem reports - screenshot](02/media/image94.png)
+![A screenshot with a border around your reports, there are three new rows at the bottom](02-1/media/image128.png)
 
 4.  Click to open one of the **Problem Report** Rows.
 
-5.  Click on the **Building** lookup and make sure building Rows were imported.
+5.  Click on the **Search** icon of the **Building** lookup and make sure building Rows were imported.
 
-![Imported building Rows - screenshot](02/media/image95.png)
+![A screenshot of a border around the building lookup with the building rows imported](02-1/media/image129.png)
 
 6.  Scroll down and click on the **Department** lookup.
 
@@ -709,3 +714,10 @@ In this exercise, you will import sample data into your environment. Rows are im
 ### **Bonus exercise**
 
   - Deal with problem report assignment within a department.
+
+
+
+
+
+
+
