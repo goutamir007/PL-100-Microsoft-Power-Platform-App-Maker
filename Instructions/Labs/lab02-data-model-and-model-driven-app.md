@@ -699,13 +699,13 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 3.  Select Problem Reports. You should see at least three new Rows.
 
-![A screenshot with a border around your reports, there are three new rows at the bottom](02-1/media/image128.png)
+![A screenshot with a border around your reports, there are three new rows at the bottom](02/media/image128.png)
 
 4.  Click to open one of the **Problem Report** Rows.
 
 5.  Click on the **Search** icon of the **Building** lookup and make sure building Rows were imported.
 
-![A screenshot of a border around the building lookup with the building rows imported](02-1/media/image129.png)
+![A screenshot of a border around the building lookup with the building rows imported](02/media/image129.png)
 
 6.  Scroll down and click on the **Department** lookup.
 
