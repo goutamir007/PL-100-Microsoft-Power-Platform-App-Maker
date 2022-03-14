@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab: Data model and model-driven app'
-    module: 'Module 3: Building model-driven apps'
+    title: 'Lab 2: Data model and model-driven app'
+    module: 'Module 02: Building model-driven apps'
 ---
 
 > [!NOTE]
@@ -12,9 +12,9 @@ lab:
 > This content will be updated soon to reflect the latest terminology.
 
 
-# Lab 02: Data model and model-driven app
+# Lab 02.1: Data model and model-driven app
 
-In this lab you will be implementing the data model for the solution and building a model-driven app that will be used by anyone fixing problems or managing the overall effort.
+In this lab you will be implementing the data model for the solution and building a model-driven app that will be used for fixing problems or managing the overall effort.
 
 ## What you will learn
 
@@ -52,7 +52,7 @@ In this lab you will be implementing the data model for the solution and buildi
 
 ### Exercise 1: Create publisher and solution
 
-In this exercise, you will create a custom solution publisher and a solution. This custom solution will be used in all the labs for this course to keep all the assets together.
+In this exercise, you will create a custom solution publisher and a solution. This solution will be used in all the labs for this course to keep all the components together.
 
 #### Task 1: Create publisher and solution
 
@@ -60,13 +60,13 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 2.  Select **Solutions** and click **+ New solution**.
 
-3.  Enter **Company 311** for **Display name**.
+3.  Enter **Company 311** for **Display name** and click.
 
 4.  Click on **+ Publisher**.
 
-![Create new publisher - screenshot](02/media/PL100-01.png)
+ ![A Screenshot with an arrow pointing to the new publisher button](02/media/PL100-01.png)
 
-5.  Enter **Lamna Healthcare** for **Display name**, **lh** for **Prefix**, and click **Save**.
+5.   Enter **Lamna Healthcare** for **Display name**, **lamnahealthcare** for **Name**, **lh** for **Prefix**, **88186** for Choice value prefix, and click **Save**.
 
 ![Save publisher - screenshot](02/media/PL100-02.png)
 
@@ -92,7 +92,7 @@ In this exercise, you will create Tables, Columns, and the relationships you ide
 
 2.  Click **+ New** and select **Table**.
 
-3.  Enter **Building** for **Display name** and click **Create**.
+3.  Enter **Building** for **Display name** and click **Save**.
 
 ![Building Table properties - screenshot](02/media/image5.png)
 
@@ -108,19 +108,19 @@ In this exercise, you will create Tables, Columns, and the relationships you ide
 
 8.  Click **+ New** and select **Table** one more time.
 
-9.  Enter **Problem Report** for **Display name**, change the **Primary Column** **Display name** to **Title**, and click **More settings**.
+9.  Enter **Problem Report** for **Display name**, on the **Primary Column** tab, enter **Title** for **Display name**.
 
 ![Problem report Table properties - screenshot](02/media/image8.png)
 
-10. Click to expand the **Collaboration** section.
+10. Click to expand the **Advanced Options** under the **Properties** tab.
 
 ![Expand section - screenshot](02/media/image9.png)
 
-11. Check the **Enable queues** checkbox and click **Create**. Enabling queues allows Problem Report Rows to be associated with one or more queues to help facilitate routing to the different departments.
+11. Check the **Can be added to a queue** checkbox under the **Rows in this table** and click **Save**. Enabling queues allows Problem Report Rows to be associated with one or more queues to help facilitate routing to the different departments.
 
 ![Enable queues - screenshot](02/media/image10.png)
 
-12. Click **Okay** on the **Confirm changes** popup.
+12. Click **Okay** on the **Confirm changes** popup(if it appears).
 
 ![Confirm changes - screenshot](02/media/image11.png)
 
@@ -166,15 +166,15 @@ In this task, you will add Columns to the Problem Report Table.
 
 14. Enter **Resolved On** for **Display name**, select **Date and time** for **Data type**, and click **Done**.
 
-15. Click **Default** Filter and select Custom
+15. 15. Click **Default** Filter and select **Custom**. (For small screen devices, default dropdown goes into the **ellipsis**).
 
-![Filter Columns - screenshot](02/media/image17.png)
+![A Screenshot with an arrow pointing to the default dropdown menu and a border around the custom button](02/media/image17.png)
 
 16. You should now see the 5 new Columns you created. Click **Save Table**.
 
 ![Save Table - screenshot](02/media/image18.png)
 
-17. Go back to the solution by clicking on the solution name.
+17. Go back to the **Solutions**, click on the solution name **Company 311**.
 
 18. Click **Publish all customizations** and wait for the publishing to complete.
 
@@ -190,12 +190,15 @@ In this task, you will edit the status reason Column of the problem report Table
 
 3.  Click on the **… More commands** button and select **Switch to classic**.
 
-> \[\!NOTE\]  
+> [!NOTE]  
 > You are switching to classic because the modern solution explorer does not support editing status reason yet but will in the future.
 
 ![Switch to classic - screenshot](02/media/image19.png)
 
-4.  Select **Fields** and double click to open the **Status Reason** Column.
+4.  Select **Fields** and look for **Status Reason** in the Display Name column, double click to open the **Status Reason** Column.
+
+> [!NOTE]  
+> If the pop-ups are not enabled on the browser, the pop-up window for updating the column will not open. Make sure that you have enabled open popups and redirects on the browser tab.
 
 ![Open Column - screenshot](02/media/image20.png)
 
@@ -211,7 +214,7 @@ In this task, you will edit the status reason Column of the problem report Table
 
 ![Add new option - screenshot](02/media/image23.png)
 
-8.  Enter Assigned for Label and click OK.
+8.  Enter **Assigned** for **Label** and click **OK**.
 
 ![Add new option - screenshot](02/media/image24.png)
 
@@ -233,7 +236,7 @@ In this task, you will edit the status reason Column of the problem report Table
 
 16. Click **Publish** and wait for the publishing to complete.
 
-17. Click Save and Close to close the classic editor.
+17. Click **Save and Close** to close the classic editor.
 
 18. You should now be back on the **Power Apps Maker** portal.
 
@@ -249,7 +252,7 @@ In this task, you will create many to one relationships between the problem repo
 
 ![Add relationship - screenshot](02/media/image27.png)
 
-3.  Select **Many-to-one**.
+3.  Select **+ Many-to-one**.
 
 ![Many-to-one relationship - screenshot](02/media/image28.png)
 
@@ -259,13 +262,13 @@ In this task, you will create many to one relationships between the problem repo
 
 5.  Click **+ Add relationship** again.
 
-6.  Select **Many-to-one**.
+6.  Select **+Many-to-one**.
 
 7.  Select **Department** for **Related (One) Table** and click **Done**.
 
 8.  Click **Save Table**.
 
-9.  Go back to the solution by clicking on the solution name.
+9. Go back to the **Solutions**, click on the solution name **Company 311**.
 
 10. Click **Publish all customizations** and wait for the publishing to complete.
 
@@ -281,7 +284,7 @@ In this exercise, you will configure form and views for the problem report Table
 
 3.  Locate and click to open the **Problem Report** Table.
 
-4.  Select the **Forms** tab and click to open the **Main** form.
+4.  Select the **Forms** tab and click to open the **Information** form of type **Main**.
 
 ![Open main form - screenshot](02/media/image30.png)
 
@@ -293,7 +296,7 @@ In this exercise, you will configure form and views for the problem report Table
 
 ![Section properties - screenshot](02/media/image32.png)
 
-7.  While you still have the section selected, go to the **Columns** pane, and click on the **Building** Column. The Building Column will be added to the form.
+7.   While you still have the section selected, go to the **Table Columns** pane, and click on the **Building** Column. The Building Column will be added to the form.
 
 ![Add Column to form - screenshot](02/media/image33.png)
 
@@ -307,7 +310,7 @@ In this exercise, you will configure form and views for the problem report Table
 
 ![Column formatting - screenshot](02/media/image35.png)
 
-11. Change the **Column height** to **4**.
+11. Change the **Form field height** to **4**.
 
 ![Change Column height - screenshot](02/media/image36.png)
 
@@ -319,7 +322,7 @@ In this exercise, you will configure form and views for the problem report Table
 
 ![Add section to form - screenshot](02/media/image38.png)
 
-14. A new section should be added to the form. Select the new section.
+14. A new section should be added to the form. Select the **new section**.
 
 ![Select section - screenshot](02/media/image39.png)
 
@@ -337,7 +340,7 @@ In this exercise, you will configure form and views for the problem report Table
 
 19. Go to the **Properties** pane and click to expand the **Formatting** section.
 
-20. Change the **Column height** to **4**.
+20. Change the **Form field height** to **4**.
 
 21. You form should now look like the image below. Click **Save**.
 
@@ -361,7 +364,8 @@ In this exercise, you will configure form and views for the problem report Table
 
 ![Add column to view - screenshot](02/media/image45.png)
 
-3.  Add **Location**, **Status Reason**, and **Owner** columns to the view. You will have to change the column filter to All when adding status reason and owner columns.
+3.  Add **Location**, **Status Reason**, and **Owner** columns to the view.
+    You will have to change the column filter to All when adding status reason and owner columns.
 
 ![Add columns to view - screenshot](02/media/image46.png)
 
@@ -369,7 +373,7 @@ In this exercise, you will configure form and views for the problem report Table
 
 ![Edit filters - screenshot](02/media/image47.png)
 
-5.  Set the first filter to **Status Reason Equals New**.
+5.  Update the existing filter and set it to **Status Reason Equals New**.
 
 6.  Click on the Column where **New** is selected.
 
@@ -419,11 +423,11 @@ In this task, you will create a new view from the Active Problem Reports view.
 
 ![Save view - screenshot ](02/media/image56.png)
 
-9.  Click on the **<-Back Button**.
+9.  Click on the **Back Button** of your browser to go back to the **Solutions**.
 
 ![Back button - screenshot](02/media/image57.png)
 
-10. Go to the solution by clicking on the solution name.
+10. On the **Solutions**, click the solution name **Company 311**.
 
 ![Navigate to solution - screenshot](02/media/image58.png)
 
@@ -445,15 +449,13 @@ In this exercise, you will create model-driven application.
 
 ![New model-driven app - screenshot](02/media/image60.png)
 
-4.  Select **classic app designer** and click **save**.
+4.  Select **Modern app designer** and click **Create**.
 
-![New model-driven app - screenshot](02/media/PL100-03.png)
-
-5.   Enter **Company 311 Admin** for name and click **Done**.
+5.  Enter **Company 311 Admin** for name and click **Create**
 
 ![Create model-driven application - screenshot](02/media/image61.png)
 
-6.  Click Edit **Site Map.**
+6. Select **Navigation** from left menu.
 
 ![Edit sitemap - screenshot](02/media/image62.png)
 
@@ -461,67 +463,64 @@ In this exercise, you will create model-driven application.
 
 ![Select sitemap area - screenshot](02/media/image63.png)
 
+**Hint:** Make sure **Enable Areas** option has been been checked under the **Navigation bar** to view the **Area1**.
+
 8.  Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
 
 ![Sitemap area properties - screenshot](02/media/image64.png)
 
-9.  Select the **New Group**.
+9. Select the **Group1**.
 
 ![Select sitemap group - screenshot](02/media/image65.png)
 
-10.  Go to the **Properties**, enter **Problems** for **Title**, and enter **group\_problems** for **ID**.
-
-![Sitemap group properties - screenshot](02/media/image66.png)
-
+10.  Go to the **Properties pane**, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
 11. Select the **New Subarea**.
-
-![Sitemap subarea - screenshot](02/media/image67.png)
-
 12. Go to the **Properties** pane, select **Table** for **Type**, and select **Problem Report** for **Entity**.
 
 ![Sitemap subarea properties - screenshot](02/media/image68.png)
 
-13. Click **+ Add**.
+> [!NOTE]
+> The new app designer doesn't provide a way to add new sitemap area yet.
 
-![Add sitemap component - screenshot](02/media/image69.png)
+13. Click **Save**.
+14. Click **Switch to classic**
 
-14. Select **Area**.
-
-15. Select the **New Area** you just added.
+15. Select **Save and Continue**.
 
 ![Sitemap area - screenshot](02/media/image70.png)
 
-16. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
+16. Click **Edit** on the Site Map.
 
-17. Select the **Settings** area and click **+ Add**.
+
+17.   Click **+ Add** and select **Area**.
 
 ![Add sitemap component - screenshot](02/media/image71.png)
 
-18. Select **Group**.
+18.   Select the **New Area** you just added.
 
-19. Select the **New Group** you just added.
+19. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
 
-20. Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
+![A screenshot of the properties pane with the title and ID changed](02-1/media/image97.png)
 
-![Sitemap group properties - screenshot](02/media/image72.png)
+20.  Click **Save and close** to close the sitemap editor.
 
-21. Select the **Taxonomy** group you just added and select the **Components** pane.
+21.  Click **Save and close** again to close the classic app designer.
 
 ![Sitemap components - screenshot](02/media/image73.png)
 
-22. Drag **Subarea** and drop it under the **Taxonomy** group.
+22. You should now be back to the new app designer. **Refresh** the browser. Switch to **Navigation** menu.
 
-![Add subarea to group - screenshot](02/media/image74.png)
+23.  The new **Settings** area should now be visible in the new app designer. Select the **Setting** area.
 
-23. Select the **New Subarea**.
-
-24. Go to the **Properties** pane, select **Entity** for **Type**, and select **Building** for **Entity**.
+24. Click **+ Add** and select **Group**.
 
 ![Sitemap subarea properties - screenshot](02/media/image75.png)
 
-25. Add another **Subarea** component to the **Taxonomy** group.
+25.  Select the **New Group** you just added.
 
-26. Select the **New Subarea**.
+26.  Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
+
+![A screenshot of the properties pane with the title and ID changed](02/media/image72.png)
 
 27. Go to the **Properties** pane, select **Table** for **Type**, and select **Department** for **Entity**.
 
